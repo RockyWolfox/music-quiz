@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/img/favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Music Quiz</title>
+  </head>
+  <body>
+    <div id="logo"><img src="img/music-quiz(logo).png" /></div>
+    <div id="container">
+      <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+          <h2 id="question">Question text</h2>
+          <ul>
+            <li>
+              <input type="radio" name="answer" id="a" class="answer" />
+              <label for="a" id="a_text">Question</label>
+            </li>
+
+            <li>
+              <input type="radio" name="answer" id="b" class="answer" />
+              <label for="b" id="b_text">Question</label>
+            </li>
+
+            <li>
+              <input type="radio" name="answer" id="c" class="answer" />
+              <label for="c" id="c_text">Question</label>
+            </li>
+
+            <li>
+              <input type="radio" name="answer" id="d" class="answer" />
+              <label for="d" id="d_text">Question</label>
+            </li>
+          </ul>
+        </div>
+        <button id="submit">Submit</button>
+      </div>
+      <div id="correctAnswers"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
